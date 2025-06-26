@@ -1,42 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Juan Camilo</title>
+    <title>Hoja de Vida | [Tu Nombre]</title>
+    
+    <!-- Google Fonts (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome (para los íconos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Tu Hoja de Estilos -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bienvenido a mi portafolio</h1>
-    <p>Hola, soy Juan Camilo, un desarrollador web apasionado por crear soluciones innovadoras.</p>
-    <h2>Proyectos Destacados</h2>
-    <ul>
-        <li><a href="https://github.com/juancamilosd/proyecto1">Proyecto 1</a></li>
-        <li><a href="https://github.com/juancamilosd/proyecto2">Proyecto 2</a></li>
-        <li><a href="https://github.com/juancamilosd/proyecto3">Proyecto 3</a></li>
-    </ul>
-    <h2>Contacto</h2>
-    <p>Puedes contactarme a través de mi correo electrónico: <a href="mailto:juancamilosd@example.com">juancamilosd@example.com</a></p>
-    <h2>Redes Sociales</h2>
-    <ul>
-        <li><a href="https://twitter.com/juancamilosd">Twitter</a></li>
-        <li><a href="https://linkedin.com/in/juancamilosd">LinkedIn</a></li>
-        <li><a href="https://github.com/juancamilosd">GitHub</a></li>
-    </ul>
-    <h2>Sobre Mí</h2>
-    <p>Soy un desarrollador web con experiencia en HTML, CSS y JavaScript.</p>
-    <p>Me encanta aprender nuevas tecnologías y mejorar mis habilidades constantemente.</p>
-    <h2>Habilidades</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-    </ul>
-    <h2>Testimonios</h2>
-    <blockquote>
-        <p>"Juan Camilo es un desarrollador excepcional, siempre entrega trabajos de alta calidad y a tiempo."</p>
-        <footer>- Cliente Satisfecho</footer>
-    </blockquote>
+
+    <div class="dashboard-container">
+        <!-- BARRA LATERAL (SIDEBAR) -->
+        <nav class="sidebar">
+            <div class="sidebar-profile">
+                <img src="img/profile-pic.jpg" alt="Foto de [Tu Nombre]">
+                <h3>[Tu Nombre]</h3>
+                <p>[Tu Profesión o Título]</p>
+            </div>
+            <ul class="sidebar-menu">
+                <li><a href="#inicio" class="active"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#sobre-mi"><i class="fas fa-user"></i> Sobre Mí</a></li>
+                <li><a href="#portafolio"><i class="fas fa-briefcase"></i> Portafolio</a></li>
+                <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+            </ul>
+            <div class="sidebar-social">
+                <a href="[Tu URL de LinkedIn]" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="[Tu URL de GitHub]" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="[Tu URL de Twitter o Instagram]" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <main class="main-content">
+            <!-- SECCIÓN INICIO -->
+            <section id="inicio" class="content-section">
+                <div class="inicio-content">
+                    <h1>Hola, soy <span class="highlight">[Tu Nombre]</span></h1>
+                    <h2><span class="typing-effect"></span></h2>
+                    <p class="intro">Bienvenido a mi espacio digital. Aquí podrás conocer más sobre mi trabajo, mis habilidades y los proyectos que he desarrollado con pasión y dedicación.</p>
+                    <a href="#portafolio" class="btn">Ver mi trabajo</a>
+                </div>
+            </section>
+
+            <!-- SECCIÓN SOBRE MÍ -->
+            <section id="sobre-mi" class="content-section">
+                <h2>Sobre Mí</h2>
+                <div class="sobre-mi-content">
+                    <div class="bio">
+                        <p>[Escribe aquí una biografía profesional. Habla de tu pasión por tu área, tus años de experiencia, qué te motiva y qué tipo de proyectos te interesan. Hazlo personal pero profesional.]</p>
+                        <a href="[URL a tu CV en PDF]" class="btn" download>Descargar CV</a>
+                    </div>
+                    <div class="skills">
+                        <h3>Habilidades Clave</h3>
+                        <div class="skills-grid">
+                            <span><i class="fab fa-html5"></i> HTML5</span>
+                            <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                            <span><i class="fab fa-js-square"></i> JavaScript</span>
+                            <span><i class="fab fa-react"></i> React</span>
+                            <span><i class="fab fa-node-js"></i> Node.js</span>
+                            <span><i class="fas fa-database"></i> SQL</span>
+                            <span><i class="fab fa-figma"></i> Figma</span>
+                            <span><i class="fas fa-palette"></i> Diseño UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECCIÓN PORTAFOLIO -->
+            <section id="portafolio" class="content-section">
+                <h2>Mi Portafolio</h2>
+                <p class="section-subtitle">Una selección de proyectos que demuestran mi capacidad para resolver problemas y crear experiencias de usuario memorables.</p>
+                
+                <!-- Filtros del portafolio -->
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="web">Desarrollo Web</button>
+                    <button class="filter-btn" data-filter="design">Diseño Gráfico</button>
+                    <button class="filter-btn" data-filter="mobile">Móvil</button>
+                </div>
+
+                <!-- Rejilla de proyectos -->
+                <div class="portfolio-grid">
+                    <!-- Los proyectos se añadirán aquí dinámicamente desde JavaScript -->
+                </div>
+            </section>
+
+            <!-- SECCIÓN CONTACTO -->
+            <section id="contacto" class="content-section">
+                <h2>Contacto</h2>
+                <p class="section-subtitle">¿Tienes una idea o un proyecto en mente? ¡Hablemos!</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:[tu.email@ejemplo.com]">[tu.email@ejemplo.com]</a></p>
+                    <p><i class="fas fa-phone"></i> [Tu Número de Teléfono]</p>
+                    <p><i class="fas fa-map-marker-alt"></i> [Tu Ciudad, País]</p>
+                </div>
+                <div class="sidebar-social contact-social">
+                    <a href="[Tu URL de LinkedIn]" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="[Tu URL de GitHub]" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="[Tu URL de Twitter o Instagram]" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- VENTANA MODAL DEL PORTAFOLIO -->
+    <div id="portfolio-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <img id="modal-img" src="" alt="Imagen del proyecto">
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+            <div id="modal-techs" class="modal-techs"></div>
+            <div class="modal-links">
+                <a id="modal-live-link" href="#" class="btn" target="_blank">Ver Proyecto</a>
+                <a id="modal-repo-link" href="#" class="btn btn-secondary" target="_blank">Ver Código</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tu Script de JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
