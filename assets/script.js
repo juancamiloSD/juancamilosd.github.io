@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Una plataforma web completa para cursos online, con gestión de usuarios, pagos y contenido interactivo. Desarrollada con el stack MERN.',
             techs: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
             liveLink: '#',
-            repoLink: '#'
         },
         {
             id: 2,
@@ -19,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Proyecto de branding y diseño de identidad visual para una cafetería local. Incluyó logotipo, paleta de colores, tipografía y mockups de packaging.',
             techs: ['Figma', 'Adobe Illustrator', 'Photoshop'],
             liveLink: '#',
-            repoLink: '#'
         },
         {
             id: 3,
@@ -29,27 +27,24 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Aplicación móvil para seguimiento de entrenamientos y nutrición. Diseño de interfaz de usuario y prototipado interactivo.',
             techs: ['React Native', 'Firebase', 'Figma'],
             liveLink: '#',
-            repoLink: '#'
         },
         {
-            id: 3,
+            id: 4,
             title: 'App Bolivar Conmigo',
             category: 'mobile',
             img: 'images/bolivar.jpg',
             description: 'Aplicación móvil que permite en mejorar el bienestar del usuario, autogestión en temas de movilidad y tener varios servicios de hogar. Aplicación disponible para Android e iOS.',
             techs: ['Angular', 'Figma', 'Redux'],
             liveLink: 'https://play.google.com/store/apps/details?id=com.segurosbolivar.bolivarconmigo&hl=es_CO&pli=1',
-            repoLink: '#'
         },
         {
-            id: 4,
+            id: 5,
             title: 'Dashboard de Análisis de Datos',
             category: 'web',
             img: 'images/proyecto4.jpg',
             description: 'Dashboard interactivo que visualiza datos de ventas en tiempo real, con gráficos y reportes personalizables.',
             techs: ['Vue.js', 'D3.js', 'Node.js', 'PostgreSQL'],
             liveLink: '#',
-            repoLink: '#'
         }
     ];
 
@@ -154,7 +149,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalDescription = document.getElementById('modal-description');
     const modalTechs = document.getElementById('modal-techs');
     const modalLiveLink = document.getElementById('modal-live-link');
-    const modalRepoLink = document.getElementById('modal-repo-link');
     const closeButton = document.querySelector('.close-button');
 
     portfolioGrid.addEventListener('click', (e) => {
