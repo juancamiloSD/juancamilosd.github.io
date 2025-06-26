@@ -191,7 +191,9 @@ h2 {
     font-size: 4rem;
     margin-bottom: 0.5rem;
 }
-
+.inicio-content p{
+    font-size: 1.2rem;
+}
 .inicio-content h1 .highlight {
     color: var(--primary-color);
 }
@@ -227,6 +229,9 @@ h2 {
 }
 #sobre-mi .bio {
     flex: 2;
+}
+#sobre-mi .bio p {
+    font-size: 1.2rem;
 }
 #sobre-mi .skills {
     flex: 1;

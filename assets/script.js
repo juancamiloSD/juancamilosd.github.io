@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
             img: 'images/montedevida.png',
             description: 'Sitio web productos de agua manantial',
             techs: ['Wordpress', 'mySql'],
-            liveLink: 'https://montevida.com/',
+            liveLink: 'https://montedevida.com/',
         },
         {
             id: 9,
