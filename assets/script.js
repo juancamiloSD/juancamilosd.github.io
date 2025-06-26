@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 3,
             title: 'Sitio web Dentark"',
             category: 'web',
-            img: 'images/dentark.jpg',
+            img: 'images/dentark.png',
             description: 'Sitio web que ofrece servicios odontológicos y de salud bucal',
             techs: ['Wordpress', 'mySql'],
             liveLink: 'https://dentarkclinicaorofacial.com/',
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 7,
-            title: 'Sitio web Dr Andres Andrade',
+            title: 'Sitio web Dr Andrés Andrade',
             category: 'web',
             img: 'images/drandresandrade.png',
             description: 'Sitio web que ofrece tratamientos de medicina estética y salud',
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 9,
             title: 'Sitio web Sharko Consultores',
             category: 'web',
-            img: 'images/sharko.png',
+            img: 'images/sharkoconsultores.png',
             description: 'Sitio web que ofrece servicios de consultoría y asesoría empresarial',
             techs: ['Wordpress', 'mySql'],
             liveLink: 'https://sharkoconsultores.com/',
@@ -86,10 +86,10 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 10,
             title: 'Sitio web Shark Capital',
             category: 'web',
-            img: 'images/sharkocapital.png',
+            img: 'images/sharkcapital.png',
             description: 'Sitio web que conecta inversionistas con proyectos de alto potencial',
             techs: ['Wordpress', 'mySql'],
-            liveLink: 'https://sharkocapital.com/',
+            liveLink: 'https://sharkcapital.com/',
         }
     ];
 
