@@ -1,9 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // --- DATOS DE LOS PROYECTOS DEL PORTAFOLIO ---
-    // Agrega aquí tus proyectos.
-    // Categorías disponibles: 'web', 'design', 'mobile'
-    const proyectos = [
+   const proyectos = [
         {
             id: 1,
             title: 'Plataforma de E-learning',
@@ -70,9 +67,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // --- EFECTO DE ESCRITURA (TYPING EFFECT) ---
     const typingElement = document.querySelector('.typing-effect');
-    const words = ["[Tu Profesión]", "Desarrollador Full-Stack", "Diseñador UI/UX", "Apasionado por la Tecnología"];
+    const words = ["Ingeniero Multimedia", "Desarrollador Frontend", "Apasionado por la Tecnología"];
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
@@ -98,7 +94,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     
-    // --- NAVEGACIÓN ACTIVA AL HACER SCROLL ---
     const navLinks = document.querySelectorAll('.sidebar-menu a');
     const sections = document.querySelectorAll('.content-section');
 
@@ -119,7 +114,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // --- MOSTRAR SECCIONES AL HACER SCROLL (INTERSECTION OBSERVER) ---
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -134,7 +128,6 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(section);
     });
 
-    // --- FILTRADO DEL PORTAFOLIO ---
     const filterButtons = document.querySelectorAll('.filter-btn');
     
     filterButtons.forEach(button => {
@@ -145,7 +138,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // --- LÓGICA DE LA VENTANA MODAL ---
     const modal = document.getElementById('portfolio-modal');
     const modalImg = document.getElementById('modal-img');
     const modalTitle = document.getElementById('modal-title');
@@ -187,7 +179,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // --- INICIALIZACIÓN ---
     type();
     renderProjects();
 });

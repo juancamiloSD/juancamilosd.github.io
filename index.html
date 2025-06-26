@@ -3,28 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida | [Tu Nombre]</title>
+    <title>Hoja de Vida | Juan Camilo</title>
     
-    <!-- Google Fonts (Poppins) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     
-    <!-- Font Awesome (para los íconos) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Tu Hoja de Estilos -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
     <div class="dashboard-container">
-        <!-- BARRA LATERAL (SIDEBAR) -->
         <nav class="sidebar">
             <div class="sidebar-profile">
-                <img src="img/profile-pic.jpg" alt="Foto de [Tu Nombre]">
-                <h3>[Tu Nombre]</h3>
-                <p>[Tu Profesión o Título]</p>
+                <img src="images/img-perfil.jpg" alt="Foto de juan camilo">
+                <h3>Juan Camilo</h3>
+                <p>Ingeniero Multimedia</p>
             </div>
             <ul class="sidebar-menu">
                 <li><a href="#inicio" class="active"><i class="fas fa-home"></i> Inicio</a></li>
@@ -33,31 +29,33 @@
                 <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
             </ul>
             <div class="sidebar-social">
-                <a href="[Tu URL de LinkedIn]" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="[Tu URL de GitHub]" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="[Tu URL de Twitter o Instagram]" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/juan-salazar27/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/juancamiloSD" target="_blank"><i class="fab fa-github"></i></a>
             </div>
         </nav>
 
-        <!-- CONTENIDO PRINCIPAL -->
         <main class="main-content">
-            <!-- SECCIÓN INICIO -->
             <section id="inicio" class="content-section">
                 <div class="inicio-content">
-                    <h1>Hola, soy <span class="highlight">[Tu Nombre]</span></h1>
+                    <h1>Hola, soy <span class="highlight">Juan Camilo Salazar Duque</span></h1>
                     <h2><span class="typing-effect"></span></h2>
                     <p class="intro">Bienvenido a mi espacio digital. Aquí podrás conocer más sobre mi trabajo, mis habilidades y los proyectos que he desarrollado con pasión y dedicación.</p>
                     <a href="#portafolio" class="btn">Ver mi trabajo</a>
                 </div>
             </section>
 
-            <!-- SECCIÓN SOBRE MÍ -->
             <section id="sobre-mi" class="content-section">
                 <h2>Sobre Mí</h2>
                 <div class="sobre-mi-content">
                     <div class="bio">
-                        <p>[Escribe aquí una biografía profesional. Habla de tu pasión por tu área, tus años de experiencia, qué te motiva y qué tipo de proyectos te interesan. Hazlo personal pero profesional.]</p>
-                        <a href="[URL a tu CV en PDF]" class="btn" download>Descargar CV</a>
+                        <p>Ingeniero Multimedia con experiencia en desarrollo de software y sitios web a la medida,
+                        utilizando tecnologías como JavaScript, TypeScript, Angular, React, Jest, HTML, CSS/SCSS,
+                        Git, SEO, PrimeNG, Taildwind, Bootstrap, PHP, NodeJs, Base de Datos y WordPress</p>
+                        <p>Cuento con habilidades para planear, asesorar, ejecutar y liderar proyectos de
+                        ingeniería de software y desarrollo web. Me destaco por mi capacidad de trabajo en
+                        equipo, liderazgo, iniciativa, disposición para aprender, sentido de responsabilidad,
+                        mejora continua y compromiso con los resultados.</p>
+                        <a href="assets/cv-spanish-juan-salazar" class="btn" download>Descargar CV</a>
                     </div>
                     <div class="skills">
                         <h3>Habilidades Clave</h3>
@@ -75,12 +73,10 @@
                 </div>
             </section>
 
-            <!-- SECCIÓN PORTAFOLIO -->
             <section id="portafolio" class="content-section">
                 <h2>Mi Portafolio</h2>
                 <p class="section-subtitle">Una selección de proyectos que demuestran mi capacidad para resolver problemas y crear experiencias de usuario memorables.</p>
                 
-                <!-- Filtros del portafolio -->
                 <div class="portfolio-filters">
                     <button class="filter-btn active" data-filter="all">Todos</button>
                     <button class="filter-btn" data-filter="web">Desarrollo Web</button>
@@ -88,31 +84,26 @@
                     <button class="filter-btn" data-filter="mobile">Móvil</button>
                 </div>
 
-                <!-- Rejilla de proyectos -->
                 <div class="portfolio-grid">
-                    <!-- Los proyectos se añadirán aquí dinámicamente desde JavaScript -->
                 </div>
             </section>
 
-            <!-- SECCIÓN CONTACTO -->
             <section id="contacto" class="content-section">
                 <h2>Contacto</h2>
-                <p class="section-subtitle">¿Tienes una idea o un proyecto en mente? ¡Hablemos!</p>
+                <p class="section-subtitle">Si tienes alguna pregunta sobre mi trabajo o mi experiencia, no dudes en escribirme. ¡Estoy para ayudar!</p>
                 <div class="contact-info">
-                    <p><i class="fas fa-envelope"></i> <a href="mailto:[tu.email@ejemplo.com]">[tu.email@ejemplo.com]</a></p>
-                    <p><i class="fas fa-phone"></i> [Tu Número de Teléfono]</p>
-                    <p><i class="fas fa-map-marker-alt"></i> [Tu Ciudad, País]</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:juancamilosd27@gmail.com">juancamilosd27@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> (+57 321 614 9165)</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Cali, Colombia</p>
                 </div>
                 <div class="sidebar-social contact-social">
-                    <a href="[Tu URL de LinkedIn]" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="[Tu URL de GitHub]" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="[Tu URL de Twitter o Instagram]" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/juan-salazar27/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/juancamiloSD" target="_blank"><i class="fab fa-github"></i></a>
                 </div>
             </section>
         </main>
     </div>
 
-    <!-- VENTANA MODAL DEL PORTAFOLIO -->
     <div id="portfolio-modal" class="modal">
         <div class="modal-content">
             <span class="close-button">×</span>
@@ -127,7 +118,6 @@
         </div>
     </div>
 
-    <!-- Tu Script de JavaScript -->
-    <script src="script.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 </html>
