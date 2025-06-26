@@ -223,17 +223,20 @@ h2 {
     display: flex;
     gap: 3rem;
     align-items: flex-start;
+    flex-direction: column;
 }
 #sobre-mi .bio {
     flex: 2;
 }
 #sobre-mi .skills {
     flex: 1;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
 .skills-grid span {
