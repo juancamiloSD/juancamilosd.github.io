@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 8,
             title: 'Sitio web Monte de Vida',
             category: 'web',
-            img: 'images/montevida.png',
+            img: 'images/montedevida.png',
             description: 'Sitio web productos de agua manantial',
             techs: ['Wordpress', 'mySql'],
             liveLink: 'https://montevida.com/',
